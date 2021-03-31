@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous">
+</script>
+    <title>Trend Tracker</title>
+</head>
+<body>
+   <div id="nav-placeholder">
+
+
+   </div>
+   <script>
+    $.get("nav.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+    <h2>EXPLORE WHAT THE WORLD IS THINKING</h2>
+    <div class="middle-container">
+            <div class="paragraph">
+                <p>We created this website because of the issues of social media platforms not letting smaller voices be heard
+on their site and allowing their posts to be clouded by advertisements that have been paid for by coporations
+and other bigger buisness. We've seen that this isolates the users from becoming knowlegdgable about certain 
+topics. 
+
+Thats why we have created Trend Tracker! A web-map application that allows its users to explore the most popular
+            and current trends on social media platforms. Not only can you see the trends in your current locaiton but you can
+            also see the current trends happening all over the world at any given time.
+            
+            come and find out what the world is thinking right now!
+</p>
+
+<a href="https://www.google.com/maps" class="map-btn"><button>go to map 🠒 </button></a>
+            </div>
+        <div><img src="assests/test gif.gif" alt="" class="img-map"></div>
+    </div>
+    
+</body>
+</html>
